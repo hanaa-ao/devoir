@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-default {
+    background-color: #f8f8f8; /* Light gray */
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    background-color: #ddd; /* Light gray background for mobile dropdown */
+}
+
+.navbar-nav li a {
+    color: #000; /* Black text */
+}
+
+/* Page Heading */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+.section {
+    background-color: #eaeaea; /* Light gray */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Back to Top Link */
+.back-to-top {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .navbar-nav {
+        background-color: #ccc; /* Darker gray for mobile menu */
+    }
+
+    .navbar-nav li a {
+        color: #000;
+    }
+}
